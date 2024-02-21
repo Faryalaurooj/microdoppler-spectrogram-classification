@@ -15,7 +15,7 @@ This repo presents a complete workflow for training and evaluating a convolution
  encapsulates a comprehensive pipeline for building, training, and evaluating CNN models for spectrogram image
  classification tasks
 
- #Results
+ # Results
 
 | Metric          | Value                 |
 |-----------------|-----------------------|
