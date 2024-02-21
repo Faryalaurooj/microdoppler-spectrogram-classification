@@ -20,6 +20,8 @@ This repo presents a complete workflow for training and evaluating a convolution
 | Metric          | Value                 |
 |-----------------|-----------------------|
 | Test Accuracy   | 0.917                 |
+![Screenshot 2024-02-21 at 04-48-48 TensorBoard](https://github.com/Faryalaurooj/microdoppler-spectrogram-classification/assets/138756263/ff920f50-e701-4020-bdfb-005ac4293bca)
+![Screenshot 2024-02-21 at 04-48-36 TensorBoard](https://github.com/Faryalaurooj/microdoppler-spectrogram-classification/assets/138756263/fd453094-70e8-40d3-9a57-e75f6a89c09d)
 
 
 
