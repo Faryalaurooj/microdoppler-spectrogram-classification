@@ -3,16 +3,17 @@ This repo presents a complete workflow for training and evaluating a convolution
 
 | Metric          | Value                 |
 |-----------------|-----------------------|
-| Test Accuracy   | 0.852                 |
-                 
-                  
-                  
-                  
+| Test Accuracy   | 0.917                 |
+
+
+
+|                 |                       |
 | Class           | Precision | Recall    | F1-score |
 |-----------------|-----------|-----------|----------|
-| Copper          |   0.800   |   0.600   |   0.686  |
-| Aluminum        |   0.814   |   0.906   |   0.857  |
-| Brass           |   0.917   |   0.982   |   0.948  |
+| Copper          |   0.903   |   0.846   |   0.874  |
+| Aluminum        |   0.961   |   0.901   |   0.930  |
+| Brass           |   0.893   |   1.000   |   0.944  |
+
 
 
 
