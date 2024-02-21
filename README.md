@@ -1,5 +1,21 @@
 # Microdoppler-Spectrogram-Classification
-This repo presents a complete workflow for training and evaluating a convolutional neural network (CNN) model  on micro doppler spectrogram images.
+This repo presents a complete workflow for training and evaluating a convolutional neural network (CNN) model  on micro doppler spectrogram images.  
+# Method
+ Complete workflow for training and evaluating a convolutional neural network (CNN) model
+ on spectrogram images is implemented. Initially, it imports necessary libraries such as OpenCV, NumPy, TensorFlow's Keras API, and
+ scikit-learn for image processing, model creation, and performance evaluation. The data loading section defines
+ functions to load augmented and original spectrograms along with their corresponding labels. The loaded data is then
+ prepared by concatenating and splitting it into training and testing sets using scikit-learn's train_test_split
+ function. Subsequently, a CNN model architecture is specified using TensorFlow's Keras API, comprising convolutional,
+ batch normalization, max-pooling, dropout, and dense layers. This model is compiled with appropriate loss function
+ and optimizer before being trained on the training data, with a checkpoint callback implemented to save the best
+ model based on validation loss. Following training, the model's performance is evaluated on the testing data to
+ measure its accuracy. Furthermore, precision, recall, and F1-score metrics are calculated for each class using
+ scikit-learn's functions, providing insights into the model's classification performance. Overall, this script
+ encapsulates a comprehensive pipeline for building, training, and evaluating CNN models for spectrogram image
+ classification tasks
+
+ #Results
 
 | Metric          | Value                 |
 |-----------------|-----------------------|
